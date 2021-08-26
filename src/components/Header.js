@@ -13,7 +13,7 @@ const Header = () => {
        //          Your browser is not supported!
        //       </video>
        //    </div>
-       <section className="section-header header">
+       <section id="section-header" className="section-header header">
           <div
              className="bg-video"
              dangerouslySetInnerHTML={{
@@ -43,6 +43,7 @@ const Header = () => {
                 <span className="heading-primary--main">Hello! My name is </span>
                 <span className="heading-primary--sub"> Harrf Akbar</span>
              </h1>
+             <a href="#section-about" className="btn-text">About Me &rarr;</a>
           </div>
        </section>
     )
