@@ -1,5 +1,24 @@
 
 .section-header {
     position: relative;
-    height: 95vh;
+    height: 100vh;
+}
+
+.section-about {
+    background-color: #1e242c;
+    margin-top: -6rem;
+    margin-bottom: -10rem;
+    padding: 15rem 0;
+}
+
+.section-project {
+    padding: 15rem 0;
+    background-image: url(../../img/mount-2.jpg);
+    background-size: cover;
+    height: 100vh;
+    transform: skewY(-7deg);
+
+    & > * {
+        transform: skewY(7deg);
+    }
 }

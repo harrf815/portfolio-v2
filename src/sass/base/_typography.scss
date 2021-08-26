@@ -21,3 +21,19 @@
 
     }
 }
+
+.heading-secondary {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: .2rem;
+    color: white;
+}
+
+.underline {
+    border-bottom: 5px solid $blue;
+    width: 50%;
+    margin: 0 auto;
+
+}
