@@ -3,6 +3,7 @@ import React from "react";
 import Header from './Header'
 import About from './About'
 import Project from './projects/Project'
+import Work from "./Work";
 
 const App = () => {
 
@@ -11,6 +12,7 @@ const App = () => {
         <Header />
         <About />
         <Project />
+        <Work />
       
      </main>
   )

@@ -1,0 +1,30 @@
+.work {
+    display: inline-block;
+
+    &__wrapper {
+        box-shadow: 2px 2px 15px white;
+        padding: 2rem 10rem;
+        margin-bottom: 5rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        
+
+    }
+
+    &__content {
+        color: white;
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+    }
+
+    &__date {
+        float: right;
+        font-size: 1.7rem;
+    }
+
+    &__title {
+        font-style: italic;
+        font-size: 1.7rem;
+    }
+}
