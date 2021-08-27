@@ -1,11 +1,11 @@
 import React from "react"
 import { Carousel } from "react-responsive-carousel"
-
-import MGphoto1 from "../img/Screen Shot 2021-07-30 at 5.47.18 PM.png"
-import MGphoto2 from "../img/Screen Shot 2021-07-30 at 5.47.55 PM.png"
-import MGphoto3 from "../img/Screen Shot 2021-07-30 at 5.48.08 PM.png"
-
 import "react-responsive-carousel/lib/styles/carousel.min.css"
+
+import MGphoto1 from "../../img/Screen Shot 2021-07-30 at 5.47.18 PM.png"
+import MGphoto2 from "../../img/Screen Shot 2021-07-30 at 5.47.55 PM.png"
+import MGphoto3 from "../../img/Screen Shot 2021-07-30 at 5.48.08 PM.png"
+
 
 const ModalManage = () => {
    return (

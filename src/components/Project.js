@@ -1,7 +1,12 @@
-import React, { useState } from "react"
+import React from "react"
 
-import ModalInsta from './ModalIntsa'
-import ModalManage from './ModalManage'
+import ModalInsta from './modal/ModalIntsa'
+import ModalManage from './modal/ModalManage'
+import ModalBrew from './modal/ModalBrew'
+import ModalRecipes from './modal/ModalRecipes'
+import ModalBook from './modal/ModalBook'
+
+
 
 const Project = () => {
    
@@ -28,7 +33,7 @@ const Project = () => {
                   <div className="card__tech">Node.js | React Hooks</div>
                   <div className="card__links">
                      <a
-                        className="card__github"
+                        className="card__button"
                         href="https://github.com/harrf815/InstaRecipes2.0-frontend"
                      >
                         <i className="github square icon"></i> Github{" "}
@@ -68,7 +73,7 @@ const Project = () => {
                   </h4>
                   <div className="card__tech">Ruby on Rails | React.js</div>
                   <div className="card__links">
-                     <a className="card__github" href="https://github.com/harrf815/brew-frontend">
+                     <a className="card__button" href="https://github.com/harrf815/brew-frontend">
                         <i className="github square icon"></i> Github{" "}
                      </a>
                      <span> | </span>
@@ -89,7 +94,7 @@ const Project = () => {
                   </h4>
                   <div className="card__tech">Ruby on Rails | JavaScript</div>
                   <div className="card__links">
-                     <a className="card__github" href="https://github.com/harrf815/frondend">
+                     <a className="card__button" href="https://github.com/harrf815/frondend">
                         <i className="github square icon"></i> Github{" "}
                      </a>
                      <span> | </span>
@@ -108,7 +113,7 @@ const Project = () => {
                   </h4>
                   <div className="card__tech">Ruby on Rails</div>
                   <div className="card__links">
-                     <a className="card__github" href="https://github.com/harrf815/book-raiders">
+                     <a className="card__button" href="https://github.com/harrf815/book-raiders">
                         <i className="github square icon"></i> Github{" "}
                      </a>
                      <span> | </span>
@@ -121,6 +126,9 @@ const Project = () => {
          </div>
          <ModalInsta />
          <ModalManage />
+         <ModalBook />
+         <ModalBrew />
+         <ModalRecipes />
       </section>
    )
 }
