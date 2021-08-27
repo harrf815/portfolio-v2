@@ -5,6 +5,7 @@
     background-color: white;
     border-radius: 3px;
     position: relative;
+    margin-bottom: 5rem;
 
     &__picture {
         background-size: cover;
@@ -15,9 +16,22 @@
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
 
+        &-0 {
+            background-image: url('../../img/comingsoon.png');
+        }
         &-1 {
             background-image: url('../../img/managelite.png');
         }
+        &-2 {
+            background-image: url('../../img/brewproject.png');
+        }
+        &-3 {
+            background-image: url('../../img/instarecipes.png');
+        }
+        &-4 {
+            background-image: url('../../img/bookraider.png');
+        }
+
     }
 
     &__heading {
