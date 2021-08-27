@@ -62,13 +62,42 @@
 
     &__images {
         width: 100%;
-        height: 60rem;
+        height: 50rem;
         margin: 0 auto;
         align-items: center;
 
 
     }
+
+    &__heading {
+        font-size: 2rem;
+    }
+
+    &__tech {
+        font-size: 1.5rem;
+        color: $grey;
+    }
+
+    &__line {
+        border-bottom: .5px solid black;
+        margin: .5rem 0;
+    }
+
+    &__text {
+        font-size: 1.2rem;
+    }
+
+    &__bottom {
+        padding: 1rem;
+    }
+
+    &__list {
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+    }
 } 
+
 .slider-wrapper.axis-horizontal {
     align-items: center;
     border-bottom: 5px solid black;

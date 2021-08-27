@@ -34,16 +34,9 @@ const Project = () => {
                         <i className="github square icon"></i> Github{" "}
                      </a>
                      <span> | </span>
-                     {/* <button
-                        className="card__button"
-                        onClick={() => {
-                           setShowModal(true)
-                           setDetail("instarecpies2.0")
-                        }}
-                     >
+                     <a className="card__button" href="#instarecipes2.0">
                         Details
-                     </button> */}
-                     <a href="#instarecipes2.0">Details</a>
+                     </a>
                   </div>
                </div>
             </div>
@@ -56,20 +49,13 @@ const Project = () => {
                   </h4>
                   <div className="card__tech">Ruby on Rails | React Hooks, Redux</div>
                   <div className="card__links">
-                     <a className="card__github" href="https://github.com/harrf815/phase5-frontend">
+                     <a className="card__button" href="https://github.com/harrf815/phase5-frontend">
                         <i className="github square icon"></i> Github{" "}
                      </a>
                      <span> | </span>
-                     {/* <button
-                        className="card__button"
-                        onClick={() => {
-                           setShowModal(true)
-                           setDetail("managelite")
-                        }}
-                     >
+                     <a className="card__button" href="#managelite">
                         Details
-                     </button> */}
-                     <a href="#managelite">Details</a>
+                     </a>
                   </div>
                </div>
             </div>
@@ -86,15 +72,9 @@ const Project = () => {
                         <i className="github square icon"></i> Github{" "}
                      </a>
                      <span> | </span>
-                     {/* <button
-                        className="card__button"
-                        onClick={() => {
-                           setShowModal(true)
-                           setDetail("brewproject")
-                        }}
-                     >
+                     <a className="card__button" href="#brewproject">
                         Details
-                     </button> */}
+                     </a>
                   </div>
                </div>
             </div>
@@ -113,15 +93,9 @@ const Project = () => {
                         <i className="github square icon"></i> Github{" "}
                      </a>
                      <span> | </span>
-                     {/* <button
-                        className="card__button"
-                        onClick={() => {
-                           setShowModal(true)
-                           setDetail("instarecpies")
-                        }}
-                     >
+                     <a className="card__button" href="#instarecipes">
                         Details
-                     </button> */}
+                     </a>
                   </div>
                </div>
             </div>
@@ -138,15 +112,9 @@ const Project = () => {
                         <i className="github square icon"></i> Github{" "}
                      </a>
                      <span> | </span>
-                     {/* <button
-                        className="card__button"
-                        onClick={() => {
-                           setShowModal(true)
-                           setDetail("bookraiders")
-                        }}
-                     >
+                     <a className="card__button" href="#bookraiders">
                         Details
-                     </button> */}
+                     </a>
                   </div>
                </div>
             </div>
