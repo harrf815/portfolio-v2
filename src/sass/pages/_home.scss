@@ -1,14 +1,14 @@
 
 .section-header {
     position: relative;
-    height: 100vh;
+    height: 120vh;
 }
 
 .section-about {
     background-color: #1e242c;
-    margin-top: -6rem;
-    margin-bottom: -10rem;
-    padding: 15rem 0;
+    margin-top: -19rem;
+    margin-bottom: -16rem;
+    padding: 10rem 0;
     height: 120vh;
 }
 
@@ -25,9 +25,10 @@
 }
 
 .section-work {
-    margin-top: -10rem;
+    margin-top: -16rem;
     margin-bottom: -10rem;
-    padding: 30rem 0;
+    padding-top: 40rem ;
+    padding-bottom: 25rem;
     background-image: linear-gradient(-45deg, #15161b, #768fb4, #721808, #7e7e81);
     animation: gradient 10s ease infinite;
     position: relative;
@@ -35,9 +36,19 @@
 }
 
 .section-blog {
+    padding: 5rem 0;
     margin-top: -18rem;
     background-color: rgb(70, 68, 68);
     background-size: cover;
     height: 80vh;
+
+}
+
+.section-contact {
+    padding: 30em 0;
+    margin-top: -18rem;
+    background-color: rgb(70, 68, 68);
+    background-size: cover;
+    height: 120vh;
 
 }

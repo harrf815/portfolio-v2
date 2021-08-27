@@ -1,0 +1,73 @@
+.form {
+    color: white;
+
+    &__control {
+        font-size: 1.5rem;
+        color: white;
+        font-family: inherit;
+        padding: 1.5rem 2rem;
+        border-radius: 2px;
+        background-color: #1e242c;
+        border: none;
+        width: 35%;
+        border-bottom: 3px solid transparent;
+        margin: 0 auto;
+        display: block;
+        transition: all .3s;
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 1rem 2rem rgba($color: black, $alpha: .1);
+            border-bottom: 3px solid $blue;
+        }
+
+        &:focus:invalid {
+             border-bottom: 3px solid red;
+        }
+
+        &::-webkit-control-placeholder {
+            color: red;
+        }
+
+        &-message {
+            height: 15rem;
+        }
+    }
+
+    &__label {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-left: 2rem;
+        margin-top: .7rem;
+        display: block;
+        transition: all .3s;
+    }
+
+    &__control:placeholder-shown + &__label {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-4rem);
+
+    }
+
+    &__button {
+        display: block;
+        border: 2px solid white;
+        background-color: transparent;
+        padding: 15px;
+        color: white;
+        cursor: pointer;
+        margin: 0 auto;
+        text-align: center;
+        width: 20%;
+        font-size: 1.8rem;
+
+        &:hover {
+            color: white;
+            opacity: 0.3;
+        }
+
+
+    }
+
+}    

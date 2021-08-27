@@ -1,17 +1,17 @@
 import React from 'react';
-import Blog from './Blog';
+import Email from './Email';
 
 const Contact = () => {
 
     return (
         <section id="section-contact" className="section-contact">
-            <Blog />
           <div className="center-text-margin">
              <h2 className="heading-secondary">
                 Contact
                 <div className="underline"></div>
              </h2>
           </div>
+          <Email />
        </section>
     )
 }

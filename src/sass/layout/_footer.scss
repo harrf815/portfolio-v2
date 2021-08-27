@@ -1,0 +1,28 @@
+.footer {
+    background-color: #1b242f;
+    display: block;
+    height: 25vh;
+    text-align: center;
+    padding: 5rem 0;
+    box-shadow: 2px 2px 15px white;
+
+    &__detail {
+        padding: 20rem 0;
+    }
+    
+    &__icons {
+        font-size: 4rem;
+    }
+
+    &-icon {
+        padding: 0 1.5rem;  
+
+        &:hover {
+            opacity: .3;
+        }
+    }
+
+    &__text {
+        font-size: 1.8rem;
+    }
+}
