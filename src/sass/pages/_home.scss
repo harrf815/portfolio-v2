@@ -28,8 +28,13 @@
          //1rem = 12px, 12/16 = 75%
     }
 
+     @include respond(ipad-pro) {
+        height: 245vh;
+        
+    }
+
     @include respond(tab-land) {
-        height: 190vh;
+        height: 120vh;
         
     }
 
@@ -39,12 +44,12 @@
     }
 
     @include respond(phone) {
-        height: 140vh;
+        height: 80vh;
     }
 
-    @include respond(small) {
-        height: 170vh;
-    }
+    // @include respond(small) {
+    //     height: 170vh;
+    // }
 }
 
 .section-project {
@@ -61,7 +66,7 @@
     // }
     @include respond(tab-land) {
         //height: 70vh;
-        height: 110vh;
+        height: 80vh;
     }
 
     @include respond(tab-port) {
@@ -70,12 +75,12 @@
     }
 
      @include respond(phone) {
-        height: 175vh;
+        height: 95vh;
     }
 
-    @include respond(small) {
-        height: 180vh;
-    }
+    // @include respond(small) {
+    //     height: 180vh;
+    // }
 }
 
 .section-work {
@@ -97,7 +102,7 @@
     // height: 80vh;
 
     @include respond(tab-land) {
-        height: 85vh;
+        height: 50vh;
     }
 
     @include respond(tab-port) {
@@ -106,7 +111,7 @@
         
     }
     @include respond(phone) {
-        height: 160vh;
+        height: 85vh;
         
     }
 

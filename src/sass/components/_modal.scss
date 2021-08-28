@@ -13,9 +13,10 @@
 
     &__content {
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
+     
 
         width: 50%;
         background-color: white;
@@ -36,14 +37,14 @@
 
     &:target &__content {
         opacity: 1;
-        transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(.9);
     }
 
     &__close {
         
         &:link, 
         &visited {
-            color: white;
+            color: black;
             position: absolute;
             bottom: 1.5rem;
             right: 1.5rem;
