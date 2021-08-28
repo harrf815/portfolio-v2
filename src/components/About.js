@@ -54,7 +54,7 @@ const About = () => {
                 </div>
                 <div className="about__row-1">
                    <div className="about__right about__right-2">
-                      <h3 className="heading-tertiary">What motives me</h3>
+                      <h3 className="heading-tertiary">What motivates me</h3>
                       <div className="line-2"></div>
                       <p className="about__text">
                          When it comes down to it the best part about me is, I am hard worker and an

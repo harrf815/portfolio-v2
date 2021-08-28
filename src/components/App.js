@@ -7,11 +7,13 @@ import Work from "./Work";
 import Contact from "./Contact";
 import Blog from "./Blog";
 import Footer from "./Footer";
+import Navi from "./Navi";
 
 const App = () => {
 
   return (
      <main>
+        {/* <Navi /> */}
         <Header />
         <About />
         <Project />
