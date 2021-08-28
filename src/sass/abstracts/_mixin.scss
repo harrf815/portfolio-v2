@@ -31,13 +31,22 @@ $breakpoint argument choices:
         @media (max-width: 37.5em) { @content };  // 600px
     }
     @if $breakpoint == tab-port {
-        @media (max-width: 56.25em) { @content };  // 900px
+        @media (max-width: 56.25em)and (orientation: landscape) { @content };  // 900px
     }
     @if $breakpoint == tab-land {
-        @media (max-width: 75em) { @content };  // 1200px
+        @media (max-width: 75em) and (orientation: landscape) { @content };  // 1200px
     }
     @if $breakpoint == ipad-pro {
         @media (max-width: 90em) { @content };  // 1440px
+    }
+    @if $breakpoint == height-port {
+        @media (max-height: 37.5em) { @content };  // 600px
+    }
+    @if $breakpoint == height-land {
+        @media (max-height: 56.25em) { @content };  // 1200px
+    }
+    @if $breakpoint == height-big {
+        @media (max-height: 112.5em) { @content };  // 1800px
     }
     @if $breakpoint == big-desktop {
         @media (min-width: 112.5em) { @content };  // 1800px

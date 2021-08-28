@@ -34,21 +34,21 @@ const About = () => {
                       <h3 className="heading-tertiary">About me</h3>
                       <div className="line-2"></div>
                       <p className="about__text">
-                         I'm a Software Engineer looking to join a stable company that offers an
-                         opportunity for growth while continuing to contribute my expertise and
-                         experience to benefit mutual growth and success. I have years of managerial
-                         experience and I excel at taking on new tasks and responsibilities and
-                         adapting them quickly to different environments. I always try my best to
-                         get the best results. My goals when building application is always
-                         responsive, dynamic, and efficent. If I don't know how to do something I
-                         always try to learn the materials I need to be successful. I thrive to
-                         always learning and being the best I can be for myself and for others. When
-                         I'm not working hard as a software engineer, I love to be active, I enjoy
-                         playing sports. Some of my top sports are football, basketball and
-                         volleyball. Family and friends are very important to me. I also enjoy
-                         hiking, camping, traveling, and my favorite laying on the beach. I may come
-                         as a quiet and shy person, but once you get to know you I am a fun and
-                         outgoing person. I always try to light up the room if I can.
+                         Hello. My name is Harrf Akbar and I am a software engineer. I am currently
+                         looking to join a stable company that offers an opportunity for growth
+                         while continuing to contribute my expertise and experience to benefit
+                         mutual growth and success. I have 10+ years of managerial experience and I
+                         excel at taking on new tasks and responsibilities needed. I strive to adapt
+                         myself quickly into different environments and provide consistent results.
+                         My goals when building an application are to be responsive, dynamic, and
+                         efficient. I believe in a mindset of continuing education where I can
+                         strengthen my knowledge on new material for any project or language. When I
+                         am not working as a software engineer; I love spending time with my family
+                         and friends as well as my hobbies. I try to stay active by playing various
+                         sports such as football, basketball, and volleyball. I also enjoy camping
+                         and traveling, however my ultimate enjoyment is laying on the beach. Thank
+                         you for taking the time and learning more about myself and my work. I hope
+                         for an opportunity to discuss my further goals and endeavors with you.
                       </p>
                    </div>
                 </div>
@@ -57,19 +57,20 @@ const About = () => {
                       <h3 className="heading-tertiary">What motivates me</h3>
                       <div className="line-2"></div>
                       <p className="about__text">
-                         When it comes down to it the best part about me is, I am hard worker and an
-                         honest person. I try to always be true to myself and what pushes me to do
-                         my best is growth and myself. I want to be better; I want to be the best at
-                         what I do. It doesn’t matter what it is I always want to achieve the best
-                         for myself. When I’m doing my best, I know I can help contribute those
-                         around me and I want nothing but positive impact for those that are around
-                         me. For me to be the best is to knowledge where I stand with my skills and
-                         know that this path I have chosen is going to be a long journey learning. I
-                         know that from this point on I need continue to grow and try to learn as
-                         much as I can about my field and the vast of languages and frame works that
-                         is path has waiting for me. Not only do I want to continue to learn more
-                         but to master what I have already learned. This is what pushes me to
-                         achieve my greatness.
+                         When breaking it down on what pushes me the hardest and what motivates me is…
+                         myself. I know it may not be your typical answer, however, I know who I am
+                         is not only a reflection of my work, but of the others around me. My
+                         current mindset is to believe that I want to be better, I want to be the
+                         best at what I do, and I want to continually grow. When I am striving and
+                         doing my best, I know I can actively contribute to those around me and make
+                         a positive impact in my community. I am aware where I currently stand with
+                         my skills and know that this path and field has a long and difficult
+                         journey ahead. Our field consists of many complex languages, frameworks,
+                         and information that I can only hope to succeed in. I am not done learning,
+                         and I will never stop learning. I understand the areas I need to
+                         strengthen, and I know I can expand my knowledge to reach my highest
+                         potential. I have come far from where I was a couple years ago, and I am
+                         only just getting started.
                       </p>
                    </div>
                    <div className="about__left about__left-2">

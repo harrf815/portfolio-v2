@@ -47,10 +47,17 @@
         // height: 145vh;
         height: 90vh;
     }
+    @include respond(height-big) {
+        height: 130vh;
+    }
 
-    // @include respond(small) {
-    //     height: 170vh;
-    // }
+    @include respond(height-land) {
+        height: 300vh;
+    }
+
+    @include respond(height-port) {
+        height: 400vh;
+    }
 }
 
 .section-project {
@@ -75,14 +82,22 @@
         // height: 165vh;
     }
 
-     @include respond(phone) {
+    @include respond(phone) {
         height: 95vh;
         // height: 165vh;
     }
 
-    // @include respond(small) {
-    //     height: 180vh;
-    // }
+    @include respond(height-big) {
+        height: 80vh;
+    }
+
+    @include respond(height-land) {
+        height: 190vh;
+    }
+
+    @include respond(height-port) {
+        height: 230vh;
+    }
 }
 
 .section-work {
