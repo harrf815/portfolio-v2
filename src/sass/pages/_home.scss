@@ -2,53 +2,126 @@
 .section-header {
     position: relative;
     height: 120vh;
+
+    // @include respond(tab-land) {
+    //     height: 100vh;
+    // }
+    // @include respond(tab-port) {
+    //     height: 80vh;
+    // }
+
+    // @include respond(phone) {
+    //     height: 59vh;
+    // }
+
 }
 
 .section-about {
     background-color: #1e242c;
     margin-top: -19rem;
     margin-bottom: -16rem;
-    padding: 10rem 0;
-    height: 120vh;
+    padding: 1rem 0;
+    height: 190vh;
+
+    @include respond(big-desktop) {
+        height: 195vh;
+         //1rem = 12px, 12/16 = 75%
+    }
+
+    @include respond(tab-land) {
+        height: 190vh;
+        
+    }
+
+    @include respond(tab-port) {
+        height: 180vh;
+        
+    }
+
+    @include respond(phone) {
+        height: 140vh;
+    }
+
+    @include respond(small) {
+        height: 170vh;
+    }
 }
 
 .section-project {
     padding: 1rem 0;
     background-image: url(../../img/mount-2.jpg);
     background-size: cover;
-    height: 110vh;
-    transform: skewY(-7deg);
+    // background-position: top;
+    position: relative;
+    height: 140vh;
+    // transform: skewY(-7deg);
 
-    & > * {
-        transform: skewY(7deg);
+    // & > * {
+    //     transform: skewY(7deg);
+    // }
+    @include respond(tab-land) {
+        //height: 70vh;
+        height: 110vh;
+    }
+
+    @include respond(tab-port) {
+        height: 225vh;
+        // height: 165vh;
+    }
+
+     @include respond(phone) {
+        height: 175vh;
+    }
+
+    @include respond(small) {
+        height: 180vh;
     }
 }
 
 .section-work {
-    margin-top: -16rem;
+    // margin-top: -16rem;
     margin-bottom: -10rem;
-    padding-top: 40rem ;
-    padding-bottom: 25rem;
+    padding: 10rem 0;
+    // padding-bottom: 25rem;
     background-image: linear-gradient(-45deg, #15161b, #768fb4, #721808, #7e7e81);
     animation: gradient 10s ease infinite;
     position: relative;
-    z-index: -1;
+    // z-index: -1;
 }
 
 .section-blog {
-    padding: 5rem 0;
+    padding: 30rem 0;
     margin-top: -18rem;
-    background-color: rgb(70, 68, 68);
-    background-size: cover;
-    height: 80vh;
+    background-color: rgb(44, 44, 46);
+    // background-size: cover;
+    // height: 80vh;
+
+    @include respond(tab-land) {
+        height: 85vh;
+    }
+
+    @include respond(tab-port) {
+        // height: 145vh;
+        height: 200vh;
+        
+    }
+    @include respond(phone) {
+        height: 160vh;
+        
+    }
 
 }
 
 .section-contact {
-    padding: 30em 0;
-    margin-top: -18rem;
-    background-color: rgb(70, 68, 68);
+    padding: 20em 0;
+    margin-top: -5rem;
+    background-color: rgb(44, 44, 46);
     background-size: cover;
-    height: 120vh;
+    // height: 120vh;
+
+    // @include respond(phone) {
+    //     height: 80vh;
+    // }
+    
 
 }

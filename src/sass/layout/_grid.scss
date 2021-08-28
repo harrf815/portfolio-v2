@@ -4,18 +4,44 @@
 
     &:not(:last-child) {
         margin-bottom: 6rem;
+
+        @include respond(tab-port) {
+            margin-bottom: 4rem;
+        }
+    }
+
+    @include respond(tab-port) {
+           max-width: 50rem;
+           padding: 0 3rem
     }
 
     [class^="col-"] {
         float: left;
 
         &:not(:last-child) {
-            margin-right: 6rem;
+            margin-right: 4rem;
+
+            @include respond(tab-port) {
+                margin-right: 0rem;
+            }
+        }
+
+        &:first-child {
+            margin-left: 4rem;
+
+            @include respond(tab-port) {
+                margin-left: 0rem;
+            }
+        }
+
+        @include respond(tab-port) {
+            width: 100% !important;
+            margin-bottom: 2rem;
         }
     }
 
     .col-1-of-3 {
-        width: calc((100% - 2 * 6rem) / 3);
+        width: calc((100% - 2 * 7rem) / 3);
     }
 
     .col-1-of-4 {
