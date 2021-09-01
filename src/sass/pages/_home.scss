@@ -29,7 +29,7 @@
     }
 
      @include respond(ipad-pro) {
-        height: 245vh;
+        height: 200vh;
         
     }
 
@@ -47,17 +47,20 @@
         // height: 145vh;
         height: 90vh;
     }
-    @include respond(height-big) {
-        height: 130vh;
-    }
 
+    // @include respond(height-big) {
+    //     height: 130vh;
+    // }
+
+    
     @include respond(height-land) {
-        height: 300vh;
+        height: 150vh;
     }
-
+    
     @include respond(height-port) {
         height: 400vh;
     }
+
 }
 
 .section-project {
@@ -72,10 +75,12 @@
     // & > * {
     //     transform: skewY(7deg);
     // }
+   
     @include respond(tab-land) {
         //height: 70vh;
         height: 80vh;
     }
+
 
     @include respond(tab-port) {
         height: 225vh;
@@ -89,6 +94,10 @@
 
     @include respond(height-big) {
         height: 80vh;
+    }
+    @include respond(ipad-pro) {
+        height: 230vh;
+        
     }
 
     @include respond(height-land) {
@@ -130,6 +139,15 @@
     @include respond(phone) {
         height: 85vh;
         
+    }
+
+    @include respond(ipad-pro) {
+        height: 155vh;
+        
+    }
+
+    @include respond(height-land) {
+        height: 105vh;
     }
 
 }

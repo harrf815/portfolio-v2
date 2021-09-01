@@ -27,12 +27,24 @@
         width: 33.333333%;
         display: table-cell;
 
-         @include respond(tab-land) {
+        @include respond(tab-land) {
                 width: 0;
                 display: contents;
             }
 
         @include respond(tab-port) {
+            width: 0;
+            display: contents;
+            padding-bottom: 10rem;
+        }
+
+        // @include respond(height-land) {
+        //     width: 0;
+        //     display: contents;
+        //     padding-bottom: 10rem;
+        // }
+
+         @include respond(ipad-pro) {
             width: 0;
             display: contents;
             padding-bottom: 10rem;
@@ -53,6 +65,18 @@
                 width: 0;
                 display: contents;
             }
+
+            // @include respond(height-land) {
+            //     width: 0;
+            //     display: contents;
+            //     padding-bottom: 10rem;
+            // }
+
+             @include respond(ipad-pro) {
+            width: 0;
+            display: contents;
+            padding-bottom: 10rem;
+        }
         }
        
     }
@@ -73,6 +97,18 @@
             display: contents;
         }
 
+        // @include respond(height-land) {
+        //     width: 0;
+        //     display: contents;
+        //     padding-bottom: 10rem;
+        // }
+
+         @include respond(ipad-pro) {
+            width: 0;
+            display: contents;
+            padding-bottom: 10rem;
+        }
+
         &-2 {
             width: 50%;
             display: table-cell;
@@ -88,6 +124,18 @@
                 width: 0;
                 display: contents;
             }
+
+        //     @include respond(height-land) {
+        //     width: 0;
+        //     display: contents;
+        //     padding-bottom: 10rem;
+        // }
+
+         @include respond(ipad-pro) {
+            width: 0;
+            display: contents;
+            padding-bottom: 10rem;
+        }
         }
     }
 
@@ -109,6 +157,17 @@
             width: 30%;
             margin: 0 auto;
         }
+
+        @include respond(height-land) {
+            width: 30%;
+            // margin: 0 auto;
+        }
+
+        @include respond(ipad-pro) {
+            width: 30%;
+            margin: 0 auto;
+        }
+
     }
 
     &__text {

@@ -15,6 +15,16 @@
            padding: 0 3rem
     }
 
+    // @include respond(height-land) {
+    //        max-width: 50rem;
+    //        padding: 0 3rem
+    // }
+
+    @include respond(ipad-pro) {
+           max-width: 50rem;
+           padding: 0 3rem
+    }
+
     [class^="col-"] {
         float: left;
 
@@ -32,9 +42,27 @@
             @include respond(tab-port) {
                 margin-left: 0rem;
             }
+
+            // @include respond(height-land) {
+            //     margin-left: 0rem;
+            // }
+
+            @include respond(ipad-pro) {
+                margin-left: 0rem;
+            }
         }
 
         @include respond(tab-port) {
+            width: 100% !important;
+            margin-bottom: 2rem;
+        }
+
+        // @include respond(height-land) {
+        //     width: 100% !important;
+        //     margin-bottom: 2rem;
+        // }
+
+        @include respond(ipad-pro) {
             width: 100% !important;
             margin-bottom: 2rem;
         }

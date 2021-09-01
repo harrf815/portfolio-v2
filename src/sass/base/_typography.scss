@@ -74,6 +74,16 @@
         margin: 0;
         width: 90%;
     }
+
+    @include respond(height-land) {
+        margin: 0;
+        width: 90%;
+    }
+
+    @include respond(ipad-pro) {
+        margin: 0;
+        width: 90%;
+    }
 }
 
 .heading-tertiary {
